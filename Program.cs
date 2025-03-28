@@ -39,7 +39,7 @@
             Console.WriteLine($"The string is: \"{inputString}\"");
             Console.WriteLine($"The number of spaces in the string: {spaces}");
 
-            // Input for summing digits
+            // Input for summing digits of a sentence in
             Console.Write("giv nambr. need BEEG: ");
             int number = int.Parse(Console.ReadLine());
             int digitSum = DigitsSum(number);
